@@ -64,6 +64,7 @@ h1 em, h2 em, h3 em { font-style: normal; color: var(--violet-bright); text-shad
 .stamp { position: absolute; z-index: 3; font: 19px/1 var(--display); letter-spacing: .06em; transform: rotate(-8deg); color: #ff8cc3; border: 2px solid #ff5fac; padding: 7px 10px 5px; box-shadow: 4px 4px 0 rgba(93, 0, 52, .5); }
 .stamp-top { top: 108px; right: 1%; }
 .stamp-side { right: -19px; bottom: 154px; transform: rotate(7deg); border-color: #bd79ff; color: #d9a7ff; font-size: 14px; }
+.easter-67 { position: absolute; z-index: 3; color: rgba(236, 190, 255, .43); font-family: var(--display); line-height: .8; pointer-events: none; user-select: none; }`r`n.hero-67 { left: 4%; bottom: 103px; font-size: 72px; transform: rotate(-12deg); text-shadow: 2px 2px 0 rgba(35, 4, 47, .45); }
 .visual-caption { position: absolute; z-index: 3; bottom: 39px; right: 0; color: #e6dcf1; font: 500 9px var(--mono); letter-spacing: .1em; text-transform: uppercase; writing-mode: vertical-rl; transform: rotate(180deg); }
 .visual-caption span { color: var(--pink); font-size: 15px; }
 
@@ -96,6 +97,7 @@ h2 { font-size: clamp(62px, 7vw, 101px); margin-bottom: 0; }
 .card-footer strong { color: #e9dff3; font-weight: 500; }
 .mod-card { min-height: 340px; grid-column: 1 / -1; display: flex; align-items: stretch; overflow: hidden; border: 1px solid var(--line); background: #25102f; position: relative; }
 .mod-card::after { content: "MOD"; position: absolute; z-index: 0; bottom: -53px; right: -6px; color: rgba(255,255,255,.04); font: 210px var(--display); }
+.mod-67 { z-index: 2; top: 21px; right: 25px; font-size: 34px; opacity: .6; transform: rotate(8deg); }
 .mod-card img { z-index: 1; width: 39%; object-fit: contain; object-position: bottom center; filter: drop-shadow(7px 10px 18px rgba(0,0,0,.4)); }
 .mod-card-copy { z-index: 1; padding: 47px 40px 35px; max-width: 440px; }
 .mod-card-copy h3 { font-size: 55px; margin: 0 0 15px; }
@@ -138,6 +140,7 @@ h2 { font-size: clamp(62px, 7vw, 101px); margin-bottom: 0; }
 .callout-note { position: absolute; right: 30px; bottom: 27px; color: #bba9c9; font: 9px/1.45 var(--mono); letter-spacing: .08em; text-align: right; }
 .callout-note span { color: #ff9bc9; }
 .site-footer { min-height: 117px; display: flex; justify-content: space-between; align-items: center; gap: 30px; color: #9e8dae; font: 10px var(--mono); border-bottom: 1px solid var(--line); }
+.footer-67 { color: rgba(204, 124, 255, .7); font-weight: 500; letter-spacing: .08em; }
 
 .appeal-dialog { width: min(450px, calc(100% - 34px)); padding: 40px; background: #200a2c; color: var(--ink); border: 1px solid rgba(228, 175, 255, .42); box-shadow: 0 25px 100px #000; }
 .appeal-dialog::backdrop { background: rgba(4, 0, 7, .74); backdrop-filter: blur(4px); }
