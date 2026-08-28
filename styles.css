@@ -87,6 +87,9 @@ h2 { font-size: clamp(62px, 7vw, 101px); margin-bottom: 0; }
 .tag { display: inline-block; padding: 6px 8px 4px; color: white; font-size: 9px; letter-spacing: .09em; }
 .tag-red { background: #ca2e55; }
 .tag-purple { background: #7133b0; }
+.tag-timeout { background: #3c7fc5; }
+.ban-card-timeout { grid-column: 1 / -1; background: linear-gradient(110deg, rgba(17, 82, 137, .38), rgba(24, 8, 39, .5)); }
+.ban-card-timeout::after { background: #31b7e8; opacity: .22; }
 .ban-card h3 { font-size: clamp(64px, 7vw, 94px); margin: 38px 0 8px; position: relative; }
 .ban-card h3 b { color: #ff7eb2; font: 34px var(--display); vertical-align: top; text-shadow: none; }
 .ban-quote { min-height: 45px; max-width: 300px; color: #d9cce4; font-size: 13px; line-height: 1.6; position: relative; z-index: 1; }
